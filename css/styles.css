@@ -156,6 +156,13 @@ display: inline;
   background: #f5f4fa;
 }
 
+.section-head {
+  padding-right: auto;
+  padding-left: auto;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .our-team-full-name {
   font-weight: 500;
   font-size: 16px;

@@ -74,6 +74,14 @@ footer {
 
 /* ======== SECTION HERO ======== */
 
+.hero {
+background: #2F303A;
+padding-top: 200px;
+padding-right: auto;
+padding-bottom: 280px;
+padding-left: auto;
+}
+
 .hero-head {
   font-weight: 900;
   font-size: 44px;
@@ -81,8 +89,8 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #FFFFFF;*/
-}
+  color: #FFFFFF;
+  }
 
 .buttom-order {
   font-weight: 700;
@@ -97,6 +105,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  padding: 10px 32px;
 }
 
 /* ======== /SECTION HERO ======== */

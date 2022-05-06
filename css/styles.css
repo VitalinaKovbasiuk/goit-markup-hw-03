@@ -18,12 +18,15 @@ body {
   background: #ffffff;
   font-family: var(--main-font);
   color: #212121;
-  }
+}
 
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
 }
 
 .list {
@@ -40,7 +43,6 @@ footer {
   padding-left: 215px;
   margin: 0;
   padding-top: 24px;
-    outline: 2px solid tomato;
 }
 
 .site-logo {
@@ -51,7 +53,6 @@ footer {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
-  outline: 2px solid tomato;
 }
 
 .web {
@@ -62,8 +63,6 @@ footer {
   list-style: none;
   display: flex;
   justify-content: space-between;
-
-  outline: 2px solid tomato;
 }
 
 .site-nav-link:hover,
@@ -78,13 +77,11 @@ footer {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
-  outline: 2px solid tomato;
 }
 
 .auth-nav {
   list-style: none;
   display: flex;
-  outline: 2px solid tomato;
 }
 
 .auth-nav-link {
@@ -108,9 +105,6 @@ footer {
 
 .hero {
   background: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  outline: 2px solid tomato;
 }
 
 .hero-head {
@@ -121,7 +115,6 @@ footer {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  outline: 2px solid tomato;
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -144,7 +137,6 @@ footer {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
-  outline: 2px solid tomato;
 }
 
 /* ======== /SECTION HERO ======== */
@@ -161,7 +153,7 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  }
+}
 
 .peculiarities-text {
   font-weight: 400;

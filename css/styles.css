@@ -22,6 +22,8 @@ body {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -38,9 +40,7 @@ footer {
   padding-left: 215px;
   margin: 0;
   padding-top: 24px;
-  padding-bottom: 25px;
-  padding-right: 93px;
-  outline: 2px solid tomato;
+    outline: 2px solid tomato;
 }
 
 .site-logo {

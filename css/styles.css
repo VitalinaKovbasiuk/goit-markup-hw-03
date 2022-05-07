@@ -343,6 +343,8 @@ footer {
 
 .portfolio-projects-list {
   margin-right: 30px;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 30px;
 }
 
 .portfolio-projects-list:last-child {
@@ -358,6 +360,10 @@ footer {
   letter-spacing: 0.06em;
   color: #212121;
   text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+  margin-left: 24px;
 }
 
 .portfolio-list-link {
@@ -372,6 +378,9 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-left: 24px;
 }
 
 /* ======== /SECTION PORTFOLIO ======== */

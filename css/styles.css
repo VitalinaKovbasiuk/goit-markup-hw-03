@@ -14,9 +14,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 2px solid tomato;
+  margin: 0 auto;
+  outline: 1px solid tomato;
 }
 
 .section {
@@ -39,6 +38,21 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.vissual-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
 }
 
 footer {
@@ -53,7 +67,6 @@ footer {
 }
 
 .header-nav {
-  margin-left: 215px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -138,13 +151,13 @@ footer {
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 280px;
+  text-align: center;
 }
 
 .hero-head {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -169,7 +182,6 @@ footer {
   margin-top: 30px;
   display: flex;
   align-items: center;
-  text-align: center;
   min-width: 200px;
   min-height: 50px;
   max-width: 220px;
@@ -221,7 +233,9 @@ footer {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
 }
+
 .section-what-we-do {
   display: flex;
   align-items: center;
@@ -254,13 +268,6 @@ footer {
 
 .our-team-surnames:last-child {
   margin-right: 0;
-}
-
-.section-head {
-  padding-right: auto;
-  padding-left: auto;
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .our-team-full-name {
@@ -303,7 +310,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  }
+  margin-bottom: 34px;
+}
 
 .portfolio-navigation-item {
   margin-right: 8px;
@@ -337,18 +345,29 @@ footer {
 
 .portfolio-projects {
   display: flex;
-    flex-wrap: wrap;
-  align-content: center;
+  flex-wrap: wrap;
 }
 
 .portfolio-projects-list {
   margin-right: 30px;
-  border: 1px solid #EEEEEE;
   margin-bottom: 30px;
+  
 }
 
-.portfolio-projects-list:last-child {
+.portfolio-projects-list:nth-child(3n) {
   margin-right: 0;
+}
+
+.border-size {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #eeeeee;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #eeeeee;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: #eeeeee;
 }
 
 .project-name {
@@ -360,7 +379,7 @@ footer {
   letter-spacing: 0.06em;
   color: #212121;
   text-decoration: none;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 4px;
   margin-left: 24px;
   margin-left: 24px;
@@ -368,7 +387,7 @@ footer {
 
 .portfolio-list-link {
   text-decoration: none;
-}
+  }
 
 .project-class {
   font-family: var(--main-font);
@@ -390,7 +409,6 @@ footer {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
 }
 
 .studio {

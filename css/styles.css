@@ -14,8 +14,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section {
@@ -32,7 +32,8 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -243,6 +244,7 @@ footer {
 
 .section-what-we-do-list {
   margin-right: 30px;
+  margin-bottom: 94px;
 }
 
 .section-what-we-do-list:last-child {
@@ -351,7 +353,6 @@ footer {
 .portfolio-projects-list {
   margin-right: 30px;
   margin-bottom: 30px;
-  
 }
 
 .portfolio-projects-list:nth-child(3n) {
@@ -359,15 +360,16 @@ footer {
 }
 
 .border-size {
-border-bottom-width: 1px;
-border-bottom-style: solid;
-border-bottom-color: #eeeeee;
-border-right-width: 1px;
-border-right-style: solid;
-border-right-color: #eeeeee;
-border-left-width: 1px;
-border-left-style: solid;
-border-left-color: #eeeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  padding: 20px 24px;
 }
 
 .project-name {
@@ -379,15 +381,11 @@ border-left-color: #eeeeee;
   letter-spacing: 0.06em;
   color: #212121;
   text-decoration: none;
-  padding-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-left: 24px;
 }
 
 .portfolio-list-link {
   text-decoration: none;
-  }
+}
 
 .project-class {
   font-family: var(--main-font);
@@ -397,9 +395,6 @@ border-left-color: #eeeeee;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-left: 24px;
 }
 
 /* ======== /SECTION PORTFOLIO ======== */

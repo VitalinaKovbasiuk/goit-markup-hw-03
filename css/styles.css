@@ -458,7 +458,7 @@ footer {
   text-decoration: none;
 }
 
-.address-link-footer:nth-last-child(n + 1) {
+.address-link-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 
